@@ -396,10 +396,12 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img-mms/slide.jpg") center center;
+  background: url("../img-mms/5.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -674,7 +676,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img-mms/mms-gallery/5.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img-mms/slide.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1465,3 +1467,5 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
