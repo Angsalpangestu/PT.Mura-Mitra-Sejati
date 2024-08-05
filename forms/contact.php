@@ -4,10 +4,10 @@ $receiving_email_address = 'info@muramitrasejati.co.id';
 
 // Memeriksa apakah formulir telah dikirim
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $name = $_POST['name'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $subject = $_POST['subject'] ?? '';
+    $message = $_POST['message'] ?? '';
 
     // Validasi input
     if (empty($name) || empty($email) || empty($subject) || empty($message)) {
