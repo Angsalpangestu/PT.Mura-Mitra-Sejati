@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mail($receiving_email_address, $email_subject, $email_body, $headers)) {
         echo 'Pesan berhasil dikirim!';
     } else {
-        echo 'Gagal mengirim pesan.';
+        echo 'Gagal mengirim pesan.'; 
     }
 }
 ?>
