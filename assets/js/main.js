@@ -259,34 +259,6 @@
 })()
 
 
-  // Nama kunci yang akan digunakan di localStorage
-  const VISITOR_COUNT_KEY = 'visitorCount';
-
-  // Nilai awal jika belum ada data di localStorage
-  const INITIAL_COUNT = 5000;
-
-  // Fungsi untuk memperbarui dan menampilkan jumlah pengunjung
-  function updateVisitorCount() {
-      // Memeriksa apakah nilai visitorCount sudah ada di localStorage
-      let visitorCount = localStorage.getItem(VISITOR_COUNT_KEY);
-
-      if (visitorCount) {
-          // Jika sudah ada, tingkatkan nilainya
-          visitorCount = parseInt(visitorCount) + 1;
-      } else {
-          // Jika belum ada, atur nilai awal menjadi 5000
-          visitorCount = INITIAL_COUNT;
-      }
-
-      // Simpan nilai baru ke localStorage
-      localStorage.setItem(VISITOR_COUNT_KEY, visitorCount);
-
-      // Tampilkan nilai di halaman
-      document.getElementById('visitorCount').textContent = visitorCount;
-  }
-
-  // Panggil fungsi untuk memperbarui dan menampilkan jumlah pengunjung saat halaman dimuat
-  updateVisitorCount();
 
   //carousell
   var swiper = new Swiper(".mySwiper", {
