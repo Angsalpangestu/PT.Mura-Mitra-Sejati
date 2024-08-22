@@ -288,6 +288,7 @@
   // Panggil fungsi untuk memperbarui dan menampilkan jumlah pengunjung saat halaman dimuat
   updateVisitorCount();
 
+  //carousell
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     loop: true,
